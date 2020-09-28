@@ -6,7 +6,7 @@
 
 class IDrawable{
     public:
-     virtual void draw(SVGWriter* svgw);   
+     virtual void draw(SVGWriter* sv) = 0;
 };
 
 #endif
